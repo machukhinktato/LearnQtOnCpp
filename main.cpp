@@ -5,7 +5,7 @@
 class MyBytton : public QWidget{
 
 public:
-    MyBytton(QWidget *parent = 0);
+    MyBytton(QWidget *parent = nullptr);
 };
 MyBytton::MyBytton(QWidget *parent) : QWidget(parent) {
     QPushButton *quitBtn = new QPushButton("Quit", this);
